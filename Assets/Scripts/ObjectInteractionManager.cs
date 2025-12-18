@@ -94,7 +94,7 @@ public class ObjectInteractionManager : MonoBehaviour
     {
         foreach (var step in interactionSteps)
         {
-            if (step.TargetObject != null) step.TargetObject.SetActive(false);
+//           if (step.TargetObject != null) step.TargetObject.SetActive(false);
             if (step.AssemblyGhost != null) step.AssemblyGhost.SetActive(false);
             if (step.AssemblyReal != null) step.AssemblyReal.SetActive(false);
         }
